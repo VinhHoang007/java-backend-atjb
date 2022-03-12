@@ -1,0 +1,196 @@
+:root{
+    --width: 950px;
+    --bgr-nav: #539dc7;
+}
+body{
+    background: gray;
+}
+.col-12, .row{
+    padding: 0;
+}
+.container-fluid{
+    padding: 10px;
+    background: white;
+    max-width: var(--width);
+    margin: 30px auto;
+    box-shadow: 0 0 10px 2px black;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.container-fluid>div{
+    padding: 0 20px;
+}
+.Header{
+    width: 100%;
+    height: 51px;
+    border-top: 3px solid #000;
+}
+.Navigation-menu{
+    width: 100%;
+    height: 26px;
+    background: var(--bgr-nav);
+    padding: 6px 20px 5px 0;
+}
+.container-navigation ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    overflow: hidden;    
+}
+.container-navigation ul li{
+    padding: 0 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.container-navigation ul li:hover{
+    cursor: pointer;
+    background-color:white;
+    color: var(--bgr-nav) !important;
+
+}
+.container-navigation ul li a:hover{
+	cursor: pointer;
+	color: var(--bgr-nav) !important;
+	text-decoration: none;
+	
+}
+.content{
+    width: var(--width);
+}
+.Porlet-title{
+    width: 169px;
+    height: 14px;
+}
+.Footer{
+    width: 100%;
+    height: 56px;
+    padding: 10px;
+    margin: 50px 20px 0 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px 20px;
+    border-top: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+.Footer p{
+    color: gray;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.line{
+    width: 100%;
+    height: 30px;
+    text-transform: capitalize;
+}
+.content>div{
+    width: 100%;
+}
+.content-home h4.title{
+    width: 100%;
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--bgr-nav);
+    margin: 0;
+}
+.content-home p.date-up{
+    color: gray;
+    font-size: 14px;
+}
+.welcome{
+    margin-top: 15px;
+}
+.tag-infor-update{
+    margin-top: 20px;
+    background: #539cc752;
+}
+.tag-infor-update p.tags{
+    color: #3390ce;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-left: 8px solid #3390ce;
+    background: #539cc76c;
+}
+.tag-infor-update p{
+    padding: 0 5px;
+    margin: 0;
+}
+
+.form-group{
+    max-width: 60%;
+}
+.form-group input{
+    width: 50%;
+}
+span.requid{
+    color: red;
+}
+.form-group button {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid gray;
+    outline: none;
+}
+.form-group label,
+.form-group small,
+.form-group button {
+    display: block;
+    margin: 5px 0;
+}
+
+label,h3.title{
+    text-transform: capitalize;
+}
+.form-create-post{
+    max-width: 100%;
+}
+.form-create-post input{
+    width: 100%;
+}
+.table thead{
+    text-align: center;
+    background: var(--bgr-nav);
+    color: white;
+}
+.table thead tr th{
+    padding: 5px 30px;
+}
+.data-post tr{
+    font-size: 14px;
+}
+.btn-func button{
+    border:none;
+    background: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 30px;
+    padding: 0;
+}
+.btn-func button:hover{
+    box-shadow: 0 0 2px gray;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+
+    content: ">>";
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.my-comment{
+	background-color: #eaf5fb;
+	width : 100%;
+}
+
+.block-cmt{
+	padding-left : 0;
+	padding-right: 0;
+}

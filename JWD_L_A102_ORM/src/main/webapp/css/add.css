@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+.form-group select{
+    cursor: pointer;
+}
+.form-group label span{
+    color: red;
+}
+.form-group label{
+    display: block;
+}
+.form-group button:hover{
+    color: black;
+}
+.form-group button{
+    color: white;
+    font-weight: 500;
+}

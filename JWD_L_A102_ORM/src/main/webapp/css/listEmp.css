@@ -1,0 +1,70 @@
+.content h2{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.432);
+}
+.content{
+    height: 600px;
+    overflow: hidden;
+}
+.content .table{
+    box-shadow: 0 0 3px grey;
+    border-radius: 5px;
+    height: 250px;
+    overflow: auto;
+}
+.table tbody tr:nth-child(odd){
+    background: rgba(128, 128, 128, 0.103);
+
+}
+.table tbody tr:hover{
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.342);
+}
+.form-search{
+    height: 35px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    /* background: rgba(128, 128, 128, 0.295); */
+    justify-content: space-between;
+}
+.input-search input{
+    height: 35px;
+    padding: 0 20px;
+    margin: 0;
+}
+.input-search{
+    align-items: center;
+    background: rgba(128, 128, 128, 0.295);
+    box-shadow: 0 0 3px gray;    
+    padding: 2px;
+}
+.form-search button.btn-search{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    height: 35px;
+}
+.form-search button{    
+    width: 15%;
+    padding: 0;
+    margin: 0 10px 0 0;
+    height: 100%;
+}
+.group-fill{
+    box-shadow: 0 0 3px gray;
+    border-radius: 4px; 
+    background: rgba(128, 128, 128, 0.295);
+}
+.group-fill span{
+    border-right: 1px solid black;
+    padding: 0 5px;
+    /* background: gray; */
+}
+.group-fill select{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}

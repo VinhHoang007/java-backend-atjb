@@ -1,0 +1,4 @@
+meo,kiki,1
+meo,cucu,2
+meo,meo,3
+cat,mew mew,1

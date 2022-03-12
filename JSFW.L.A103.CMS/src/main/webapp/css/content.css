@@ -1,0 +1,106 @@
+.container-fluid {
+  margin-top: 20px;
+  width: 80%;
+  height: 860px;
+  background-color: white;
+  box-shadow: 0 0 10px 2px black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.header {
+    display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.178);
+}
+
+.side-bar {
+  height: 810px;
+  background-color: rgba(128, 128, 128, 0.178);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 119, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.bg-item:hover {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.bg-item:hover a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.icon-user{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:rgba(85, 85, 85, 0.486);
+}
+
+.line-item{
+  width: 100%;
+  height: 1px;
+  background-color:rgba(85, 85, 85, 0.171);
+}
+
+textarea{
+    resize:none;
+}
+
+.form-control{
+    width: 75%;
+}
+
+.label-color{
+    font-weight: 500;
+}
+
+/* 
+ div.parent-list-header div.icon-user */
+.header{
+  position: relative;
+}
+.list-header{
+  right: 0px;
+  top: 44px;
+  background-color: white;
+    width: 220px;
+    position: absolute;
+    height:  auto;
+    box-shadow: 0 0 3px black;
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+}
+.list-header>div{
+  display:flex;
+  align-items: center;
+  padding: 8px 16px;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.171);
+}
+
+.parent-list-header>.icon-user:focus-within>.list-header{
+  display: block;
+}

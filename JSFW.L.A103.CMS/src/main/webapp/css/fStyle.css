@@ -1,0 +1,38 @@
+body{
+    padding-top:20px;
+    background-color: #465568;
+}
+.my-login{
+    margin-top: 15rem;
+    box-shadow: 0 0 10px 2px black;
+    border-radius: 4px;
+    height: 34rem;
+}
+
+.form-control {
+    height: 45px;
+    margin-bottom: 2px;
+}
+.register{
+    margin: 0px 16px;
+}
+a{
+    text-transform: none;
+}
+a:hover{
+	text-transform: none !important;
+}
+
+h3{
+	font-weight: 700;
+}
+
+.my-register{
+    margin-top: 15rem;
+    box-shadow: 0 0 10px 2px black;
+    border-radius: 4px;
+    height: 46rem;
+    width: 43rem;
+
+}
+

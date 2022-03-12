@@ -1,0 +1,54 @@
+.container-manager {
+	max-width: 90vw;
+	border-radius: 5px;
+	box-shadow: 0 0 9px 1px black;
+	background: rgb(197, 197, 197);
+	overflow: hidden;
+	padding: 20px;
+	margin: 10vh auto;
+}
+
+.header {
+	padding: 0 20px;
+	height: 50px;
+	font-size: 18px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title-header {
+	color: rgb(97, 97, 97);
+}
+
+.navgation {
+	height: 60vh;
+	/* box-shadow: 0 0 3px black; */
+	border-right: 1px solid gray;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	color: #007bff;
+}
+
+.navgation>div {
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	width: 100%;
+}
+
+.navgation>div:hover {
+	background: rgba(128, 128, 128, 0.603);
+	cursor: pointer;
+}
+
+.emp-list {
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+}
+
+.content {
+	background: white;
+	overflow: auto;
+}
